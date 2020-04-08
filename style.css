@@ -1,20 +1,32 @@
 body {
   height: 100%;
   background-image: url("https://developer.spotify.com/images/home/tile-1-alt-bg.jpg");
+  background-position: center;
   background-repeat: no-repeat;
 }
+/*navigation bootstrapp inverse navbar */
 .navbar{
   width: auto;
-
-
+  position: relative;
 }
 .navbar .navbar-nav>li>a {
   color: #fff;
   font-size: 10px;
 }
+.toggle{
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  visibility: hidden;
+}
 
+/*w3sch sidebar*/
 .sidenav {
-  height: 100%;
+  height: 88%;
   width: 160px;
   position: fixed;
   z-index: 1;
@@ -37,7 +49,7 @@ body {
   line-height: inherit;
   border: none;
 }
-.sidenav-up>a>i:hover, .sidenav-up>a>i:focus, .sidenav-med>a:hover, .sidenav-med>a:focus, .sidenav-up>a:hover, .sidenav-up>a:focus,.sidenav-bott>a:hover, .sidenav-bott>a:focus, .nav>li>a:hover, .nav>li>a:focus  {
+.sidenav-up>a>i:hover, .sidenav-up>a>i:focus, .sidenav-med>a:hover, .sidenav-med>a:focus, .sidenav-up>a:hover, .sidenav-up>a:focus,.sidenav-bott>a:hover, .sidenav-bott>a:focus, .nav>li>a:hover, .nav>li>a:focus, .toggle  {
   text-decoration: none;
   background-color: #eee;
   color: #797809;
@@ -57,8 +69,39 @@ body {
 }
 .sidenav-bott{
   border-bottom: 2px solid #fff;
+
+}
+/*section centrale*/
+.content{
+  display: flex;
   
 }
 
+/*footer ancora div;)*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 12%;
+  background-color: #292d2e;
+  color: white;
+  text-align: center;
+  display: flex;
+}
 
-@media (min-width: 768px)
+
+
+/*prova media query riuscita */
+@media screen and (max-width: 768px) {
+  .navbar-header>a>i {
+    visibility: visible;
+    color: #fff;
+    }
+  }/*@media (min-width: 768px)*/
+@media screen and (max-width: 320px) {
+  .navbar-header>a>i {
+    visibility: visible;
+    color: #fff;
+    }
+  }/*@media (min-width: 190px)*/
