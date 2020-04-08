@@ -56,9 +56,8 @@ body {
   justify-content: flex-end;
 }
 .sidenav-bott{
-
-  flex-wrap: wrap;
-
+  border-bottom: 2px solid #fff;
+  
 }
 
 
