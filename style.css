@@ -24,25 +24,32 @@ body {
   overflow-x: hidden;
   padding-top: 20px;
 }
-.sidenav a {
+.sidenav a, span {
   padding: 5px 8px 6px 16px;
   text-decoration: none;
   font-size: 10px;
   color: #fff;
   display: block;
+
 }
 .sidenav>a>i:hover, .sidenav>a>i:focus{
   line-height: inherit;
   border: none;
 }
-.sidenav>a>i:hover, .sidenav>a>i:focus, .sidenav>a:hover, .sidenav>a:focus, .nav>li>a:hover, .nav>li>a:focus  {
+.sidenav-up>a>i:hover, .sidenav-up>a>i:focus, .sidenav-med>a:hover, .sidenav-med>a:focus, .sidenav-up>a:hover, .sidenav-up>a:focus, .nav>li>a:hover, .nav>li>a:focus  {
   text-decoration: none;
   background-color: #eee;
-  color: gold;
+  color: #797809;
 }
 .spot>i{
   font-size: 18px;
   color: #fff;
+}
+.sidenav-med{
+  padding-top: 25px;
+}
+.sidenav-bott{
+  align-content: flex-end;
 }
 
 
