@@ -1,0 +1,50 @@
+body {
+  height: 100%;
+  background-image: url("https://developer.spotify.com/images/home/tile-1-alt-bg.jpg");
+  background-repeat: no-repeat;
+}
+.navbar{
+  width: auto;
+
+
+}
+.navbar .navbar-nav>li>a {
+  color: #fff;
+  font-size: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 5px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  color: #fff;
+  display: block;
+}
+.sidenav>a>i:hover, .sidenav>a>i:focus{
+  line-height: inherit;
+  border: none;
+}
+.sidenav>a>i:hover, .sidenav>a>i:focus, .sidenav>a:hover, .sidenav>a:focus, .nav>li>a:hover, .nav>li>a:focus  {
+  text-decoration: none;
+  background-color: #eee;
+  color: gold;
+}
+.spot>i{
+  font-size: 18px;
+  color: #fff;
+}
+
+
+
+@media (min-width: 768px)
