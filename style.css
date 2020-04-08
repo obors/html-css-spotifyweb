@@ -23,6 +23,7 @@ body {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
+
 }
 .sidenav a, span {
   padding: 5px 8px 6px 16px;
@@ -36,7 +37,7 @@ body {
   line-height: inherit;
   border: none;
 }
-.sidenav-up>a>i:hover, .sidenav-up>a>i:focus, .sidenav-med>a:hover, .sidenav-med>a:focus, .sidenav-up>a:hover, .sidenav-up>a:focus, .nav>li>a:hover, .nav>li>a:focus  {
+.sidenav-up>a>i:hover, .sidenav-up>a>i:focus, .sidenav-med>a:hover, .sidenav-med>a:focus, .sidenav-up>a:hover, .sidenav-up>a:focus,.sidenav-bott>a:hover, .sidenav-bott>a:focus, .nav>li>a:hover, .nav>li>a:focus  {
   text-decoration: none;
   background-color: #eee;
   color: #797809;
@@ -48,10 +49,17 @@ body {
 .sidenav-med{
   padding-top: 25px;
 }
-.sidenav-bott{
-  align-content: flex-end;
+.sidenav-bottom{
+  height: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
+.sidenav-bott{
 
+  flex-wrap: wrap;
+
+}
 
 
 @media (min-width: 768px)
