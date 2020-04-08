@@ -62,7 +62,7 @@ body {
   padding-top: 25px;
 }
 .sidenav-bottom{
-  height: 50%;
+  height: 60%;
   display:flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -74,7 +74,7 @@ body {
 /*section centrale*/
 .content{
   display: flex;
-  
+
 }
 
 /*footer ancora div;)*/
