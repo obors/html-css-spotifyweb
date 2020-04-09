@@ -3,6 +3,7 @@ body {
   background-image: url("https://developer.spotify.com/images/home/tile-1-alt-bg.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /*navigation bootstrapp inverse navbar */
 .navbar{
@@ -87,6 +88,7 @@ body {
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
+  object-fit: contain;
 }
 .h2{
   top: 15px;
