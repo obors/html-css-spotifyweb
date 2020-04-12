@@ -189,7 +189,7 @@ hr{
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  color: #fff;
+  background-color: #fff;
   top: 10px;
   display: inline-block;
 }
